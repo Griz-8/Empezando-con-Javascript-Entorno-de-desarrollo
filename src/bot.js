@@ -33,6 +33,38 @@ else{
   }
 }
   }
+
+  if(idioma === 'ingles')
+  {
+  if(hora <12)
+  {
+    saludo = 'Good Morning ';
+  }
+   if(hora >=12 && hora < 19)
+  {
+    saludo = 'Good Afternoon ';
+  }
+  else
+  {
+    saludo = 'Good evening ';
+  }
+if(edad>30){
+  if (genero==='femenino'){
+    saludo=saludo + 'Lady ';
+  }
+  if (genero==='masculino'){
+    saludo=saludo + 'Sir ';
+  }
+}
+else{
+  if (genero==='femenino'){
+    saludo=saludo + 'Miss ';
+  }
+  if (genero==='masculino'){
+    saludo=saludo + 'Mister ';
+  }
+}
+  }
   saludo = saludo + nombre;
   return saludo;
 }

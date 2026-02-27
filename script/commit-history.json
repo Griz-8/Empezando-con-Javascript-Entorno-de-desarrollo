@@ -114,17 +114,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "03d5a8ef4ba6aa25ff02ac836b864d3c3c7529cb",
     "author": "Grizzz88",
     "commit": {
       "date": "2026-02-27T04:37:36.000Z",
       "message": "Saludar en espaniol",
-      "url": "https://github.com/Griz-8/Empezando-con-Javascript-Entorno-de-desarrollo/commit/HEAD"
+      "url": "https://github.com/Griz-8/Empezando-con-Javascript-Entorno-de-desarrollo/commit/03d5a8ef4ba6aa25ff02ac836b864d3c3c7529cb"
     },
     "stats": {
       "total": 16,
       "additions": 13,
       "deletions": 3,
+      "date": "2026-02-27"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-02-27T04:48:52.000Z",
+      "message": "Saludar en Ingles",
+      "url": "https://github.com/Griz-8/Empezando-con-Javascript-Entorno-de-desarrollo/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 38,
+      "deletions": 2,
       "date": "2026-02-27"
     },
     "coverage": 100,
