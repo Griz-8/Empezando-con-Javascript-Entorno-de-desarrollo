@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 import sumar from './sumador';
 import multiplicar from './multiplicador';
+import saludar from './bot';
 
 const first = document.querySelector('#primer-numero');
 const second = document.querySelector('#segundo-numero');
@@ -26,4 +28,13 @@ mulForm.addEventListener('submit', (event) => {
   const secondNumber = Number.parseInt(mulSecond.value);
 
   mulDiv.innerHTML = '<p>' + multiplicar(firstNumber, secondNumber) + '</p>';
+});
+
+
+const saluForm = document.querySelector('#saludar-form');
+const saluDiv = document.querySelector('#resultado-saludo');
+
+saluForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  saluDiv.innerHTML = '<p>' + saludar() + '</p>';
 });
