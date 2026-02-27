@@ -24,9 +24,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e2f590aa8f873abc662df6f907b5a0257f9bc141",
     "commitName": "Saludar por genero",
     "commitTimestamp": 1772165685912,
     "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Saludar por edad",
+    "commitTimestamp": 1772166438411,
+    "testId": 5
   }
 ]

@@ -33,12 +33,14 @@ mulForm.addEventListener('submit', (event) => {
 
 const nom = document.querySelector('#nombre');
 const genSelect = document.querySelector('#genero');
+const edadH = document.querySelector('#edadD');
 const saluForm = document.querySelector('#saludar-form');
 const saluDiv = document.querySelector('#resultado-saludo');
 
 saluForm.addEventListener('submit', (event) => {
   event.preventDefault();
+  const edad = edadH.value;
   const nombre = nom.value;
   const genero = genSelect.value;
-  saluDiv.innerHTML = '<p>' + saludar(nombre, genero) + '</p>';
+  saluDiv.innerHTML = '<p>' + saludar(nombre, genero, edad) + '</p>';
 });
