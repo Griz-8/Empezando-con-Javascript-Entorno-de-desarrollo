@@ -1,7 +1,9 @@
-function saludar(nombre, genero, edad) {
+function saludar(nombre, genero, edad, idioma) {
   const fecha = new Date();
   const hora = fecha.getHours();
   let saludo;
+  if(idioma === 'espaniol')
+  {
   if(hora <12)
   {
     saludo = 'Buenos dias ';
@@ -30,7 +32,7 @@ else{
     saludo=saludo + 'señorito ';
   }
 }
-
+  }
   saludo = saludo + nombre;
   return saludo;
 }
