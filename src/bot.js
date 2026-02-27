@@ -1,5 +1,6 @@
-function saludar() {
-  const saludo = 'Hola';
+function saludar(nombre) {
+  let saludo;
+  saludo = 'Hola ' + nombre;
   return saludo;
 }
 

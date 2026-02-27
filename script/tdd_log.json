@@ -6,9 +6,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b1e6cc2e0e54a112c91117b293f8b3c8b3f1541e",
     "commitName": "Saludar con ‘hola’",
     "commitTimestamp": 1772159331969,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Saludar por nombre",
+    "commitTimestamp": 1772160212414,
+    "testId": 2
   }
 ]

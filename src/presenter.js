@@ -31,10 +31,12 @@ mulForm.addEventListener('submit', (event) => {
 });
 
 
+const nom = document.querySelector('#nombre');
 const saluForm = document.querySelector('#saludar-form');
 const saluDiv = document.querySelector('#resultado-saludo');
 
 saluForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  saluDiv.innerHTML = '<p>' + saludar() + '</p>';
+  const nombre = nom.value;
+  saluDiv.innerHTML = '<p>' + saludar(nombre) + '</p>';
 });
