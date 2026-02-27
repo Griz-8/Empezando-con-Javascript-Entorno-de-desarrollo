@@ -18,9 +18,15 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ccefca413a3f15adff20ead29b39b73e687c33c6",
     "commitName": "Saludar de acuerdo a la hora",
     "commitTimestamp": 1772160567482,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Saludar por genero",
+    "commitTimestamp": 1772165685912,
+    "testId": 4
   }
 ]
